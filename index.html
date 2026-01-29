@@ -15,6 +15,7 @@
         }
         .section-padding { padding: 80px 0; }
         .bg-light-green { background-color: #f0fdf4; }
+        .text-justify { text-align: justify; }
         .icon-feature { font-size: 2rem; color: #198754; margin-bottom: 1rem; }
         .card { transition: transform 0.3s; }
         .card:hover { transform: translateY(-5px); }
@@ -24,14 +25,14 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Ingeniería Industrial</a>
+            <a class="navbar-brand" href="#">Ingeniería Industrial UPDS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#proyecto">El Proyecto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyecto">Investigación</a></li>
                     <li class="nav-item"><a class="nav-link" href="#proceso">Proceso Técnico</a></li>
                     <li class="nav-item"><a class="nav-link" href="#equipo">Equipo</a></li>
                 </ul>
@@ -43,20 +44,61 @@
         <div class="container">
             <h1 class="display-4 fw-bold">Desarrollo de un Sistema de Hidrógeno Verde</h1>
             <p class="lead mb-4">Proyecto Formativo Universitario | Universidad Privada Domingo Savio</p>
-            <a href="#proyecto" class="btn btn-success btn-lg">Ver Investigación</a>
+            <a href="#proyecto" class="btn btn-success btn-lg">Leer Investigación</a>
         </div>
     </header>
 
     <section id="proyecto" class="section-padding">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="display-6 fw-bold text-success">Resumen de la Investigación</h2>
+                    <p class="lead text-muted">Análisis técnico y viabilidad industrial</p>
+                </div>
+            </div>
+
+            <div class="row align-items-center mb-5">
                 <div class="col-md-6">
-                    <h2 class="mb-4">Objetivo General</h2>
-                    <p class="lead">Diseñar un sistema eficiente para la producción de hidrógeno verde a través de la electrólisis del agua.</p>
-                    <p>Este proyecto busca analizar la viabilidad técnica y económica de implementar celdas de electrólisis alimentadas por energía solar fotovoltaica, reduciendo así la dependencia de hidrocarburos en procesos industriales.</p>
+                    <h3>1. Planteamiento del Problema</h3>
+                    <p class="text-justify">
+                        Actualmente, la matriz energética industrial depende en gran medida de combustibles fósiles, lo que genera altos niveles de emisiones de CO2 y contribuye al cambio climático. La industria requiere urgentemente alternativas energéticas que sean sostenibles, eficientes y económicamente viables. El desafío principal radica en la implementación de sistemas de almacenamiento de energía limpia que puedan garantizar un suministro continuo.
+                    </p>
                 </div>
                 <div class="col-md-6">
+                    <div class="p-4 bg-light rounded border-start border-success border-5">
+                        <h4 class="h5">La Pregunta de Investigación:</h4>
+                        <p class="mb-0 fst-italic">"¿Es posible diseñar un sistema de producción de hidrógeno verde a pequeña escala que sea rentable y eficiente para su aplicación en procesos industriales locales?"</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6 order-md-2">
+                    <h3>2. Objetivos y Alcance</h3>
+                    <p class="text-justify">
+                        El <strong>Objetivo General</strong> es diseñar un prototipo funcional de generación de hidrógeno mediante electrólisis del agua, alimentado por energía solar fotovoltaica.
+                    </p>
+                    <ul>
+                        <li><strong>Dimensionamiento:</strong> Cálculo de la capacidad de los paneles solares necesarios.</li>
+                        <li><strong>Seguridad:</strong> Protocolos de almacenamiento de hidrógeno a baja presión.</li>
+                        <li><strong>Eficiencia:</strong> Análisis de la pureza del hidrógeno obtenido (buscando >99%).</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 order-md-1">
                     <img src="https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="img-fluid rounded shadow" alt="Ingeniería">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card bg-success text-white shadow">
+                        <div class="card-body p-5 text-center">
+                            <h3>3. Metodología Aplicada</h3>
+                            <p class="lead mb-0">
+                                Utilizamos un enfoque <strong>Cuantitativo-Experimental</strong>. Se realizan mediciones de voltaje, amperaje y volumen de gas producido en intervalos de tiempo controlados para determinar la eficiencia energética del electrolizador PEM diseñado.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -70,7 +112,7 @@
                     <div class="p-4 bg-white rounded shadow h-100">
                         <div class="icon-feature">⚡</div>
                         <h4>1. Captación de Energía</h4>
-                        <p>Uso de fuentes renovables para alimentar el proceso sin emisiones de CO2.</p>
+                        <p>Uso de fuentes renovables (Solar/Eólica) para alimentar el proceso sin emisiones de CO2.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -107,7 +149,7 @@
                     <div class="card border-0 shadow-sm h-100">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Pérez Foronda Inti Ghandi</h5>
-                            <p class="card-text text-muted">Estudiantes de Ingeniería Industrial</p>
+                            <p class="card-text text-muted">Estudiante de Ingeniería Industrial</p>
                         </div>
                     </div>
                 </div>
